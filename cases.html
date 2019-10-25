@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Empat</title>
+  <meta name="theme-color" content="#c9e0e04d">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="We can help you to grow up your business.">
+  <link rel="shortcut icon" href="./img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./img/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./img/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon-180x180.png">
+  <link rel="stylesheet" href="./styles/main.min.css">
+</head>
+<body>
+<div class="header flex-container flex-container--space-between">
+  <a href="/" class="logo"></a>
+  <button class="burger js-burger">
+    <span></span>
+    <span></span>
+  </button>
+  <div class="menu js-menu">
+    <div class="container flex-container">
+      <div class="menu__col">
+        <p class="menu__title">Let’s create together</p>
+        <a href="/contacts.html#check-1" class="button button--menu">Web development</a>
+        <a href="/contacts.html#check-4" class="button button--menu">Software development</a>
+        <a href="/contacts.html#check-3" class="button button--menu">Application development</a>
+        <a href="/contacts.html#check-2" class="button button--menu">E-Commerce</a>
+      </div>
+      <nav class="menu__col nav">
+        <p class="menu__title">Pages</p>
+        <a data-content="Main" href="/" class="nav__link is-active">Main</a>
+        <a data-content="Services" href="/services.html" class="nav__link">Services</a>
+        <a data-content="Cases" href="/cases.html" class="nav__link">Cases</a>
+        <a data-content="Team" href="/team.html" class="nav__link">Team</a>
+        <a data-content="Contact Us" href="/contacts.html" class="nav__link">Contact Us</a>
+      </nav>
+      <div class="menu__col">
+        <p class="menu__title">Contacts</p>
+        <p class="menu__address">
+          <strong>Kyiv (HQ)</strong><br>
+          Shota Rustaveli Street, 22a Kyiv, Ukraine, 01033
+          <a href="tel:+38 097 625 04 93" class="link link--whitespace">+38 097 625 04 93</a>
+        </p>
+        <p class="menu__title menu__title--mobile-mt menu__title--mobile-small-mb">Contacts</p>
+        <a href="mailto:ng@empat.tech" class="link link--violett link--teammate">ng@empat.tech</a>
+        <a href="mailto:info@empat.tech" class="link link--violett link--teammate">info@empat.tech</a>
+      </div>
+    </div>
+  </div>
+</div>
+<main>
+  <section class="section section--hero-template-page section--padding-top section--padding-bottom container">
+    <h1 class="title">Cases</h1>
+    <p class="title title--bg-absolute rellax" data-rellax-speed="2" data-rellax-percentage="-0.7">Cases</p>
+    <div class="section-text">
+      <p class="section-text__subtitle">Result oriented - is what we are. <strong>Every project for us is unique and equally important.</strong><br>Firstly, we deeply analyze a project and then we use our MTP approach:</p>
+      <ul class="section-text__list">
+        <li class="section-text__list-item"><strong>Methodology:</strong> we choose which methodology is going to be used for the project development to make the process the most effective and flexible for the client.</li>
+        <li class="section-text__list-item"><strong>Technology:</strong> we decide what technology is going to be the most efficient for your business, so the product serve your business goals and KPIs.</li>
+        <li class="section-text__list-item"><strong>Philosophy:</strong> we make sure your product philosophy is in line with today’s market needs and fits your target audience.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="section container">
+    <div class="filters js-visible">
+      <button class="button button--filter js-button js-filter is-active" data-filter="all">All</button>
+      <button class="button button--filter js-button js-filter" data-filter="enterprise">Enterprise</button>
+      <button class="button button--filter js-button js-filter" data-filter="e-commerce">E-Commerce</button>
+      <button class="button button--filter js-button js-filter" data-filter="vr/ar">VR/AR</button>
+      <button class="button button--filter js-button js-filter" data-filter="mobile-development">Mobile Development</button>
+      <button class="button button--filter js-button js-filter" data-filter="web-development">Web Development</button>
+    </div>
+    <div class="flex-container cases">
+      <div hidden data-url="#" class="case-card case-card--cases js-visible js-filtered-box all">
+        <img src="./img/getatty.svg" alt="case title" class="case-card__logo">
+        <img src="./img/getatty-bg.png" alt="case title background" class="case-card__bg">
+        <h6 class="case-card__title case-card__title--getatty">Instant Legal Advice Online</h6>
+        <div class="case-card__wrapper flex-container flex-container--align-center">
+          <p class="text text--margin-right">GetAtty</p>
+          <p class="link link--small link--violett link--margin-right">Responsive Website</p>
+        </div>
+      </div>
+      <div data-url="./austria.html" class="case-card case-card--cases case-card--austria js-visible js-filtered-box all e-commerce">
+        <img src="./img/sprites/sprite.svg#austria-logo" alt="case title" class="case-card__logo-austria">
+        <img src="./img/austria-card-bg.png" alt="case title background" class="case-card__bg">
+        <img src="./img/sprites/sprite.svg#austria-banner-text" alt="" class="case-card__title-austria">
+        <div class="case-card__wrapper flex-container flex-container--align-center">
+          <p class="text text--margin-right">Austrian Embassy in Ukraine</p>
+          <p class="link link--small link--violett link--margin-right">Responsive Website</p>
+          <p class="link link--small link--violett link--margin-right">Logo</p>
+        </div>
+      </div>
+      <div data-url="./dco.html" class="case-card case-card--cases case-card--dco js-visible js-filtered-box all e-commerce">
+        <img src="./img/dco-card-logo.png" alt="case title" class="case-card__logo-dco">
+        <div alt="case title background" class="case-card__bg case-card__bg--dco"></div>
+        <div class="case-card__dco-warframes">
+          <img src="./img/dco/app.png" alt="dco app wraframes" class="case-card__dco-warframes-img">
+        </div>
+        <h6 class="case-card__title-dco">Dental Care Ecosystem</h6>
+        <div class="case-card__wrapper flex-container flex-container--align-center">
+          <p class="text text--margin-right">Dental Care Ecosystem</p>
+          <p class="link link--small link--violett link--margin-right">Responsive Website</p>
+          <p class="link link--small link--violett link--margin-right">Logo</p>
+        </div>
+      </div>
+      <div data-url="./looqme.html" class="case-card case-card--cases case-card--looqme js-case-card-looqme js-visible js-filtered-box all enterprise e-commerce">
+        <img src="./img/looqme-logo.png" alt="case title" class="case-card__logo-looqme">
+        <h6 class="case-card__title-looqme">Сервіс для <br>ефективного PR</h6>
+        <div class="case-card__video-wrapper">
+          <video src="./img/looqme.mp4" loop class="case-card__video--looqme"></video>
+        </div>
+        <div class="case-card__bg case-card__bg--looqme"></div>
+        <div class="case-card__wrapper flex-container flex-container--align-center">
+          <p class="text text--margin-right">Looqme</p>
+          <p class="link link--small link--violett link--margin-right">Responsive Website</p>
+        </div>
+      </div>
+      <form class="case-card form form--bordered case-card--cases js-visible js-filtered-box all enterprise e-commerce vr/ar mobile-development web-development">
+        <h6 class="title title--small-line-height title--case-card-form">We want your project live here</h6>
+        <p class="text text--violett text--bold text--big text--case-form">Fill this simple form below to start co-op</p>
+        <div class="form-group form-group--animated">
+          <input class="form-input form-input--autofill-white" type="text" id="name">
+          <label class="form-label" for="name">Name</label>
+        </div>
+        <div class="form-group form-group--animated">
+          <input class="form-input form-input--autofill-white" type="email" id="email">
+          <label class="form-label" for="email">Email</label>
+        </div>
+        <div class="form-group form-group--animated">
+          <input class="form-input form-input--autofill-white" type="text" id="description">
+          <label class="form-label" for="description">Project description</label>
+        </div>
+        <div class="form-group">
+          <input class="form-file" type="file" id="file">
+          <label class="form-label form-label--file" for="file">Attach file</label>
+        </div>
+        <button class="form-button" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="flex-container">
+      <a href="https://givingtuesday.org.ua" target="_blank" class="small-case-card js-visible">
+        <img src="./img/gt-small.png" alt="alpha" class="small-case-card__img">
+        <p class="small-case-card__title">Giving Tuesday</p>
+      </a>
+      <a href="https://fireupyour.biz" target="_blank" class="small-case-card js-visible">
+        <img src="./img/fuelfinances-small.png" alt="alpha" class="small-case-card__img">
+        <p class="small-case-card__title">FuelFinances</p>
+      </a>
+      <a href="https://ti-ukraine.org/" target="_blank" class="small-case-card js-visible">
+        <img src="./img/ti-small.png" alt="alpha" class="small-case-card__img">
+        <p class="small-case-card__title">Transparency International</p>
+      </a>
+      <a href="http://investinprojects.pro" target="_blank" class="small-case-card js-visible">
+        <img src="./img/inv-small.png" alt="alpha" class="small-case-card__img">
+        <p class="small-case-card__title">Invest In Projects</p>
+      </a>
+      <div class="small-case-card js-visible">
+        <img src="./img/alpha-small.png" alt="alpha" class="small-case-card__img">
+        <p class="small-case-card__title">Alpha Strategies</p>
+      </div>
+      <div class="small-case-card js-visible">
+        <img src="./img/oboi-small.png" alt="alpha" class="small-case-card__img">
+        <p class="small-case-card__title">Oboi</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container flex-container">
+    <div class="footer__column">
+      <p class="title title--footer">Services</p>
+      <a class="link link--footer" href="#">Product Strategy</a>
+      <a class="link link--footer" href="#">Product Design</a>
+      <a class="link link--footer" href="#">Engineering</a>
+      <a class="link link--footer" href="#">Testing and QA</a>
+      <a class="link link--footer" href="#">Project Management</a>
+      <a class="link link--footer" href="#">Training and Support</a>
+      <a class="link link--footer" href="#">Staff Augmentation</a>
+    </div>
+    <div class="footer__column">
+      <p class="title title--footer">Capabilities</p>
+      <a class="link link--footer" href="#">Progressive Web Apps</a>
+      <a class="link link--footer" href="#">Ember</a>
+      <a class="link link--footer" href="#">Elixir / Phoenix</a>
+    </div>
+    <div class="footer__column">
+      <p class="title title--footer">Company</p>
+      <a class="link link--footer" href="#">Why DockYard</a>
+      <a class="link link--footer" href="#">Work</a>
+      <a class="link link--footer" href="#">Press Releases</a>
+      <a class="link link--footer" href="#">Blog</a>
+      <a class="link link--footer" href="#">Team</a>
+      <a class="link link--footer" href="#">Culture</a>
+      <a class="link link--footer" href="#">Careers</a>
+    </div>
+    <div class="footer__column">
+      <p class="title title--footer">Connect</p>
+      <a class="link link--footer" href="#">Contact</a>
+      <a class="link link--footer" href="#">Newsletter</a>
+      <a class="link link--footer" href="#">Twitter</a>
+      <a class="link link--footer" href="#">LinkedIn</a>
+      <a class="link link--footer" href="#">Dribbble</a>
+      <a class="link link--footer" href="#">Github</a>
+    </div>
+    <div class="footer__column footer__column--order-1">
+      <a href="/" class="logo logo--footer"></a>
+      <p class="text text--small text--copyright">Copyright &copy; 2019, Empat&nbsp;agency. All&nbsp;rights&nbsp;reserved. 
+        <br><br><a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+    </div>
+  </div>
+</footer>
+<div class="cursor js-cursor"></div>
+<script src="./js/main.min.js"></script>
+</body>
+</html>
